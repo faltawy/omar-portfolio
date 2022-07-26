@@ -1,12 +1,4 @@
 import React from 'react';
-import { tagList } from '../utils';
-
-function Tag({ label }) {
-  return (
-    <span className='whitespace-nowrap bg-Quick-Silver text-White py-1 px-1.5'>{label}</span>
-  )
-}
-
 
 function Home() {
   return (
