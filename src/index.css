@@ -1,5 +1,40 @@
 @tailwind base;
-
-@tailwind components;
-
 @tailwind utilities;
+@tailwind variants;
+
+@layer base {
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+@layer utilities {
+    .shadow-none {
+        box-shadow: none !important;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: rotateY(100deg);
+        transform-origin: left;
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0);
+        transform-origin: left;
+    }
+}
+
+.show {
+    animation: show .5s ease-out 0s 1 normal forwards;
+}
