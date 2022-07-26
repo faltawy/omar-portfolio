@@ -30,15 +30,7 @@ function Home() {
               Creative Photographer based in New Yorall over Europe to capture photos.
             </p>
           </div>
-          <div className="flex flex-row items-center justify-center gap-3 mb-2 flex-wrap">
-            {
-              tagList.map(
-                (tag, index) => (
-                  <Tag key={index} label={tag} />
-                )
-              )
-            }
-          </div>
+          
         </div>
       </div>
 
