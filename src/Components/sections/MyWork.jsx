@@ -47,10 +47,8 @@ function MyWork() {
                 <div className="works grid grid-cols-1 sm:grid-cols-3 items-center place-content-center place-items-center w-full gap-3 p-2">
                     {
                         works.map(
-                            (work, index) => {
-                                if (work.category === selected) {
-                                    return <Image {...work} key={index} />
-                                }
+                            function (work, index) {
+                                return (work.category === selected && <Image {...work} key={index} />)
                             }
                         )
                     }
