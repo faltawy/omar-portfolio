@@ -20,7 +20,7 @@ function Home() {
           <div className="w-full   text-start text-Granite-Gray mb-4 whitespace-nowrap 
           ">
             <h1 className='uppercase font-bold text-[45px]
-            relative w-fit after:rounded-lg
+            relative w-fit after:rounded-lg tracking-in-contract
             after:w-full after:h-1 after:bg-Granite-Gray after:absolute after:bottom-0 after:right-0
             '>Omar Tag</h1>
           </div>

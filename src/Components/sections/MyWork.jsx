@@ -3,11 +3,12 @@ import Image from '../ExpandImage/Image'
 
 
 const works = [
-    { img: 'https://picsum.photos/800/900', title: 'logo design for assar startup', category: 'LOGO' },
-    { img: 'https://picsum.photos/800/300', title: 'logo design for assar startup', category: 'LOGO' },
-    { img: 'https://picsum.photos/700/400', title: 'logo design for assar startup', category: 'LOGO2' },
-    { img: 'https://picsum.photos/800/300', title: 'logo design for assar startup', category: 'LOGO2' },
-    { img: 'https://picsum.photos/800/800', title: 'logo design for assar startup', category: 'LOGO156' }
+    { img: 'https://picsum.photos/800/900', title: 'logo design for assar startup', category: 'logo design' },
+    { img: 'https://picsum.photos/800/600', title: 'logo design for assar startup', category: 'logo design' },
+    { img: 'https://picsum.photos/700/700', title: 'logo design for assar startup', category: 'logo design' },
+    { img: 'https://picsum.photos/800/300', title: 'logo design for assar startup', category: 'social media design' },
+    { img: 'https://picsum.photos/800/800', title: 'logo design for assar startup', category: 'digital drawing' },
+    { img: 'https://picsum.photos/800/800', title: 'logo design for assar startup', category: 'other stuff' }
 ]
 
 function getCategories() {
